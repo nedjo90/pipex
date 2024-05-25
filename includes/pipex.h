@@ -13,10 +13,23 @@
 #ifndef PIPEX_H
 # define PIPEX_H
 
-# include "../libft/includes/libft.h"
-# include "../libft/includes/ft_printf.h"
-# include "../libft/includes/get_next_line.h"
+# define NULL_PATH "NULL path is invalid.\n"
+# define NO_FILE "Please provided one or more files.\n"
+# define NOT_EXIST "Not an existing file.\n"
+# define READABLE "Readable.\n"
+# define NOT_READABLE "Not readable.\n"
+# define WRITABLE "Writable.\n"
+# define NOT_WRITABLE "Not writable.\n"
+# define EXECABLE "Executable.\n"
+# define NOT_EXECABLE "Not executable.\n"
+# define PWD "/home/nhan/Desktop/pipex"
 
-void	ft_display_right(int n, char **path);
+# include "../libft/includes/libft.h"
+
+int		ft_is_existing_file(char *path);
+int		ft_is_readable_file(char *path);
+int		ft_is_writable_file(char *path);
+int		ft_is_executable_file(char *path);
+void	ft_access(int n, char **path);
 
 #endif //PIPEX_H

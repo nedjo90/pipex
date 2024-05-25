@@ -1,22 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   execve.c                                           :+:      :+:    :+:   */
+/*   ft_is_writable.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/25 13:28:44 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/25 13:30:36 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/25 14:43:20 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/25 14:43:20 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/pipex.h"
+#include "../../includes/pipex.h"
 
-int	main(int ac, char **av, char **envp)
+
+int	ft_is_writable_file(char *path)
 {
-	const char	*filename = "/usr/bin/ls";
-	char const	*argv[] = {"ls", "-la", NULL};
-	(void) ac;
+	int	res;
 
-	execve(filename, argv, envp);
+	if (!path)
+	{
+		write(2, NULL_PATH, ft_strlen(NULL_PATH));
+		return (-1);
+	}
+	res = access(path, W_OK);
+	if (res >= 0)
+		write(1, WRITABLE, ft_strlen(WRITABLE));
+	else
+		write(1, NOT_WRITABLE, ft_strlen(NOT_WRITABLE));
+	return (res);
 }
