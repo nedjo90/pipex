@@ -1,34 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pipex.c                                            :+:      :+:    :+:   */
+/*   ft_free_tab.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/24 19:16:41 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/24 19:16:41 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/25 17:49:54 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/25 17:49:54 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
-#include "includes/pipex.h"
-
-static void	print_env(char **envp)
+char	**ft_free_tab(char **tab)
 {
-	size_t	i;
+	int	i;
 
-	i = 0;
-	while (envp[i])
+	if (tab)
 	{
-		printf("%s\n", envp[i]);
-		i++;
+		i = 0;
+		while (tab[i])
+		{
+			free(tab[i]);
+			i++;
+		}
+		free(tab);
 	}
-}
-
-int	main(int argc, char **argv, char **envp)
-{
-	(void)argc;
-	(void)argv;
-	(void)envp;
-	print_env(envp);
-	return (0);
+	return (NULL);
 }

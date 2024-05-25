@@ -27,9 +27,16 @@ srcs/libft/ft_atol.c \
 srcs/libft/ft_calloc.c \
 srcs/libft/ft_strdup.c \
 srcs/libft/ft_substr.c \
+srcs/libft/ft_begin_with.c \
+srcs/libft/ft_end_with.c \
 srcs/libft/ft_strjoin.c \
+srcs/libft/ft_strjointab.c \
 srcs/libft/ft_strtrim.c \
 srcs/libft/ft_split.c \
+srcs/libft/ft_split_str.c \
+srcs/libft/ft_count_word.c \
+srcs/libft/ft_count_word_str.c \
+srcs/libft/ft_free_tab.c \
 srcs/libft/ft_itoa.c \
 srcs/libft/ft_strmapi.c \
 srcs/libft/ft_striteri.c \

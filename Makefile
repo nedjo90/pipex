@@ -17,7 +17,8 @@ NAME=pipex
 
 all: $(NAME)
 
-$(NAME) : $(OBJS) curr
+$(NAME) : $(OBJS)
+	./set_pwd_in_macro
 	make -C ./libft
 	mv libft/libft.a $(LIB)
 	$(AR) $(LIB) $^

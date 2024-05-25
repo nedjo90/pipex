@@ -49,6 +49,11 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }	t_list;
+
+typedef struct s_memory{
+	void			*address;
+	struct s_memory	*next;
+}	t_m;
 //fonction
 
 int			ft_abs(int x);
@@ -66,6 +71,8 @@ int			ft_lstsize(t_list *lst);
 int			ft_putchar_fd(char c, int fd);
 int			ft_putstr_fd(char *s, int fd);
 int			ft_putnbr_fd(int n, int fd);
+int			ft_begin_with(const char *s, const char *p);
+int			ft_end_with(const char *s, const char *p);
 char		*ft_strrev(char *input);
 char		*ft_ulong_to_hex(unsigned long number);
 char		*ft_uint_to_str(unsigned int number);
@@ -75,12 +82,17 @@ char		*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char		*ft_strdup(const char *s1);
 char		*ft_substr(char const *s, unsigned int start, size_t len);
 char		*ft_strjoin(char const *s1, char const *s2);
+char		*ft_strjointab(char **tab, char *sep);
 char		*ft_strtrim(char const *s1, char const *set);
 char		*ft_itoa(int n);
 char		*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char		*ft_itoa(int n);
 char		**ft_split(char const *s, char c);
+char		**ft_split_str(char *s, char *sep);
+char		**ft_free_tab(char **tab);
 size_t		ft_strlen(const char *s);
+size_t		ft_count_word(char const *s, char c);
+size_t		ft_count_word_str(const char *s, const char *sep);
 size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t		ft_strlcat(char *dst, const char *src, size_t dstsize);
 t_list		*ft_lstnew(void *content);

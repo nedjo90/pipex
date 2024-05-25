@@ -1,34 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pipex.c                                            :+:      :+:    :+:   */
+/*   count_word.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/24 19:16:41 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/24 19:16:41 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/25 17:57:49 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/25 17:57:49 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/pipex.h"
+#include "libft.h"
 
-static void	print_env(char **envp)
+size_t	ft_count_word_str(const char *s, const char *sep)
 {
+	size_t	count;
 	size_t	i;
+	size_t	size_sep;
+	size_t	size_s;
 
+	count = 0;
 	i = 0;
-	while (envp[i])
+	size_sep = ft_strlen(sep);
+	size_s = ft_strlen(s);
+	while (i < size_s)
 	{
-		printf("%s\n", envp[i]);
-		i++;
+		if (ft_begin_with(s, sep))
+			i += size_sep;
+		else
+		{
+			i++;
+			count++;
+		}
 	}
-}
-
-int	main(int argc, char **argv, char **envp)
-{
-	(void)argc;
-	(void)argv;
-	(void)envp;
-	print_env(envp);
-	return (0);
+	return (count);
 }

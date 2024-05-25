@@ -1,34 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pipex.c                                            :+:      :+:    :+:   */
+/*   ft_begin_with.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/24 19:16:41 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/24 19:16:41 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/25 18:02:32 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/25 18:02:32 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/pipex.h"
+#include "libft.h"
 
-static void	print_env(char **envp)
+int	ft_begin_with(const char *s, const char *p)
 {
 	size_t	i;
+	size_t	j;
 
+	if (!s || !p)
+		return (0);
 	i = 0;
-	while (envp[i])
+	j = 0;
+	while (s[i] && p[j])
 	{
-		printf("%s\n", envp[i]);
+		if (s[i] != p[j])
+			return (0);
+		j++;
 		i++;
 	}
-}
-
-int	main(int argc, char **argv, char **envp)
-{
-	(void)argc;
-	(void)argv;
-	(void)envp;
-	print_env(envp);
+	if (!p[j])
+		return (1);
 	return (0);
 }
