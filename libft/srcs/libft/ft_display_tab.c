@@ -1,20 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pipex.c                                            :+:      :+:    :+:   */
+/*   ft_display_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/24 19:16:41 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/24 19:16:41 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/26 16:19:03 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/26 16:29:16 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../../includes/libft.h"
 
-int	main(int argc, char **argv, char **envp)
+void	ft_display_tab(char **tab)
 {
-	(void)argc;
-	(void)argv;
-	ft_display_tab(envp);
+	if (!tab)
+		return ;
+	while (*tab)
+	{
+		printf("%s\n", *tab);
+		tab++;
+	}
 }

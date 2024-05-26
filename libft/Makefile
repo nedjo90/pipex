@@ -55,6 +55,7 @@ srcs/libft/ft_lstdelone_bonus.c \
 srcs/libft/ft_lstclear_bonus.c \
 srcs/libft/ft_lstiter_bonus.c \
 srcs/libft/ft_lstmap_bonus.c \
+srcs/libft/ft_display_tab.c \
 srcs/ft_printf/ft_printf.c\
 srcs/ft_printf/ft_conversion_symbol.c\
 srcs/ft_printf/ft_print_char.c\

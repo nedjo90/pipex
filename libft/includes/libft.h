@@ -86,7 +86,6 @@ char		*ft_strjointab(char **tab, char *sep);
 char		*ft_strtrim(char const *s1, char const *set);
 char		*ft_itoa(int n);
 char		*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-char		*ft_itoa(int n);
 char		**ft_split(char const *s, char c);
 char		**ft_split_str(char *s, char *sep);
 char		**ft_free_tab(char **tab);
@@ -111,7 +110,8 @@ void		*ft_memcpy(void *dst, const void *src, size_t n);
 void		*ft_memmove(void *dst, const void *src, size_t len);
 void		*ft_memchr(const void *s, int c, size_t n);
 void		*ft_calloc(size_t count, size_t size);
+void		ft_display_tab(char **tab);
 long int	ft_atol(const char *str);
-long int	ft_labs(const long int x);
+long int	ft_labs(long int x);
 
 #endif

@@ -18,23 +18,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e3083d0-6076-4695-b7e4-efaac47a4401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_begin_with.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_count_word.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_count_word_str.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_end_with.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_free_tab.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_split_str.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strjointab.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_pwd_in_macro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pipex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_abs.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_atoi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_atol.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_begin_with.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_bzero.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_calloc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_count_word.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_count_word_str.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_display_tab.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_end_with.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_free_tab.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_isalnum.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_isalpha.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_isascii.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_isdigit.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_isprint.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_labs.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_memchr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_memcmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_memcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_memmove.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_memset.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_split.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_split_str.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strchr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strdup.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strjoin.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strjointab.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strlcat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strlcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strlen.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strncmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strnstr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strrchr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_strtrim.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_substr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_tolower.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_toupper.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_ulong_to_hex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/dup2/ft_dup2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/dup2/ft_dup2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/execve/ft_execve.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/execve/ft_execve.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/pipex.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/pipex.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/includes/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/srcs/libft/ft_split.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/srcs/libft/ft_split.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pipex.c" beforeDir="false" afterPath="$PROJECT_DIR$/pipex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/ft_access.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_access.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/ft_access.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_access.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/set_pwd_in_macro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_executable_file.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_executable_file.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_executable_file.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_executable_file.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_existing_file.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_existing_file.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_existing_file.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_existing_file.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_readable_file.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_readable_file.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_readable_file.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_readable_file.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_writable_file.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_writable_file.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/access_extensions/ft_is_writable_file.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_is_writable_file.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/ft_access.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_access.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/ft_access.o" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/access/ft_access.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +99,33 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="pipex" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="pipex" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -72,6 +147,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Makefile Target.all (1).executor&quot;: &quot;Run&quot;,
     &quot;Makefile Target.all.executor&quot;: &quot;Run&quot;,
     &quot;Makefile Target.fclean.executor&quot;: &quot;Run&quot;,
@@ -82,6 +158,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.jetbrains.cidr.cpp.cmake.workspace.CMakeCacheInvalidator.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/nhan/Desktop/pipex/libft/srcs/libft&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -89,7 +166,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C/C++&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -98,10 +175,36 @@
       <recent name="$PROJECT_DIR$/libft/srcs/libft" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/srcs/access" />
       <recent name="$PROJECT_DIR$/srcs" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.re">
+  <component name="RunManager" selected="Makefile Target.all (1)">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="all" CONFIG_NAME="all" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
@@ -112,7 +215,67 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pipex" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="pipex" CONFIG_NAME="pipex" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pipex" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="pipex" CONFIG_NAME="pipex" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pipex" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="pipex" CONFIG_NAME="pipex" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pipex" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="pipex" CONFIG_NAME="pipex" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pipex" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="pipex" CONFIG_NAME="pipex" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="re" CONFIG_NAME="re" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="re" CONFIG_NAME="re" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="re" CONFIG_NAME="re" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pipex" TARGET_NAME="re" CONFIG_NAME="re" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
@@ -128,6 +291,54 @@
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="all (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/libft/Makefile" target="all" workingDirectory="" arguments="">
         <envs />
@@ -136,6 +347,54 @@
     </configuration>
     <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/libft/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/libft/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
@@ -158,9 +417,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.all (1)" />
         <item itemvalue="Makefile Target.re" />
         <item itemvalue="Makefile Target.all" />
-        <item itemvalue="Makefile Target.all (1)" />
         <item itemvalue="Makefile Target.fclean" />
       </list>
     </recent_temporary>
@@ -178,7 +437,12 @@
       <workItem from="1716633289599" duration="3648000" />
       <workItem from="1716636946806" duration="16325000" />
       <workItem from="1716662765123" duration="22000" />
-      <workItem from="1716662793847" duration="5093000" />
+      <workItem from="1716662793847" duration="5383000" />
+      <workItem from="1716717183420" duration="917000" />
+      <workItem from="1716718106359" duration="9513000" />
+      <workItem from="1716728320690" duration="242000" />
+      <workItem from="1716728568631" duration="455000" />
+      <workItem from="1716729030637" duration="4394000" />
     </task>
     <servers />
   </component>

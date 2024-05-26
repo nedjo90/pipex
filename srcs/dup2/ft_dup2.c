@@ -1,30 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_readable_file.c                              :+:      :+:    :+:   */
+/*   ft_dup2.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/25 14:39:40 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/25 14:39:40 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/26 13:50:25 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/26 15:13:41 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/pipex.h"
+#include "pipex.h"
 
-int	ft_is_readable_file(char *path)
+int	ft_dup2(char *oldfd, int newfd)
 {
-	int	res;
+	int		res;
+	int		fd;
 
-	if (!path)
+	fd = open(oldfd, O_WRONLY, 0644);
+	if (fd < 0)
 	{
-		write(2, NULL_PATH, ft_strlen(NULL_PATH));
-		return (-1);
+		perror(oldfd);
+		return (fd);
 	}
-	res = access(path, R_OK);
-	if (res >= 0)
-		write(1, READABLE, ft_strlen(READABLE));
-	else
-		write(2, NOT_READABLE, ft_strlen(NOT_READABLE));
+	res = dup2(fd, newfd);
+	close(fd);
+	if (res < 0)
+	{
+		perror("dup2");
+	}
 	return (res);
 }

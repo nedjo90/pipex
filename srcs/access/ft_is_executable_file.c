@@ -1,20 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pipex.c                                            :+:      :+:    :+:   */
+/*   ft_is_executable_file.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/24 19:16:41 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/24 19:16:41 by nhan             ###   ########.fr       */
+/*   Created: 2024/05/25 14:54:21 by nhan              #+#    #+#             */
+/*   Updated: 2024/05/25 14:54:21 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pipex.h"
 
-int	main(int argc, char **argv, char **envp)
+int	ft_is_executable_file(char *path)
 {
-	(void)argc;
-	(void)argv;
-	ft_display_tab(envp);
+	int	res;
+
+	if (!path)
+	{
+		write(2, NULL_PATH, ft_strlen(NULL_PATH));
+		return (-1);
+	}
+	res = access(path, X_OK);
+	if (res >= 0)
+		write(1, "x", 1);
+	else
+		write(1, "-", 1);
+	return (res);
 }

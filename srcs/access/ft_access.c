@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   access.c                                           :+:      :+:    :+:   */
+/*   ft_access.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nhan <han.necati@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 09:39:09 by nhan              #+#    #+#             */
-/*   Updated: 2024/05/25 13:10:48 by nhan             ###   ########.fr       */
+/*   Updated: 2024/05/26 15:10:40 by nhan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/pipex.h"
+#include "../../includes/pipex.h"
 
 /*
  *int access(const char *pathname, int mode);
@@ -29,23 +29,17 @@
  * , or some other error occurred),
  * -1 is returned, and errno is set appropriately.
  */
-void	ft_access(int n, char **path)
+void	ft_access(char **path)
 {
-	char		*full_path;
-	int		i;
-
-	i = 0;
-	while (i < n)
+	while (*path)
 	{
-		full_path = ft_strjointab(path, "/");
-		if (!full_path && ft_is_existing_file(full_path))
+		if (ft_is_existing_file(*path) >= 0)
 		{
-			ft_is_readable_file(full_path);
-			ft_is_writable_file(full_path);
-			ft_is_executable_file(full_path);
-			free(full_path);
-			full_path = NULL;
+			ft_is_readable_file(*path);
+			ft_is_writable_file(*path);
+			ft_is_executable_file(*path);
+			write(1, "\n", 1);
 		}
-		i++;
+		path++;
 	}
 }
