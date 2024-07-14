@@ -1,13 +1,13 @@
 SRCS=\
 pipex.c\
-srcs/access/ft_access.c\
-srcs/access/ft_is_existing_file.c\
-srcs/access/ft_is_readable_file.c\
-srcs/access/ft_is_writable_file.c\
-srcs/access/ft_is_executable_file.c\
-srcs/dup2/ft_dup2.c\
-srcs/execve/ft_execve.c\
-
+srcs/ft_perror_free_exit.c\
+srcs/ft_get_path_envp.c\
+srcs/ft_get_file_path.c\
+srcs/ft_free_pipex.c\
+srcs/ft_configure_pipex.c\
+srcs/ft_initialize_pipex.c\
+srcs/ft_proc_pipex.c\
+srcs/ft_get_command_head.c\
 
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -I ./includes -I ./libft/includes
@@ -16,6 +16,7 @@ OBJS=$(SRCS:.c=.o)
 AR=ar rcs
 RM=rm -rf
 NAME=pipex
+MEMCHECK=
 
 
 all: $(NAME)
