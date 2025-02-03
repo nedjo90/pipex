@@ -1,13 +1,10 @@
 SRCS=\
 pipex.c\
-srcs/ft_perror_free_exit.c\
-srcs/ft_get_path_envp.c\
-srcs/ft_get_file_path.c\
-srcs/ft_free_pipex.c\
-srcs/ft_configure_pipex.c\
-srcs/ft_initialize_pipex.c\
-srcs/ft_proc_pipex.c\
-srcs/ft_get_command_head.c\
+srcs/utils.c\
+srcs/error_handling.c\
+srcs/search_path.c\
+srcs/execute_cmd.c\
+srcs/process.c\
 
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -I ./includes -I ./libft/includes
